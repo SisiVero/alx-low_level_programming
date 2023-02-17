@@ -5,14 +5,14 @@
 #include <time.h>
 
 /**
- * main entry point
+ * main - entry point
  * Return: Always (Success)
  */
 
 int main(void)
 {
 	int d;
-	
+
 	for (d = '0'; d < '9'; d++)
 	putchar(d);
 	putchar('\n');
